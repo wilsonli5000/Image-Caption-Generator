@@ -4,8 +4,8 @@
 git add -A
 
 #commit with a defult message
-echo "Default message: Commit by Wilson Li"
-git commit -m "Commit by Wilson Li"
+echo "Commit message: $1"
+git commit -m "$1"
 
 #push 
 git push origin master
